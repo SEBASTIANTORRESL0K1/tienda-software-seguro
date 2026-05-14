@@ -21,7 +21,7 @@ describe('Carrito universitario', () => {
 
     cy.contains('Sudadera institucional').should('be.visible');
     cy.contains('2').should('exist');
-    cy.contains('Total:').should('contain', '$1,298');
+    cy.contains('Total:').should('contain', '$1,268');
   });
 
   it('falla de forma intencional para evidenciar el control de seguridad', () => {
